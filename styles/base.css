@@ -1,6 +1,14 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
 .container {
-    max-width: 23.4375rem;
+    max-width: 375px;
     margin: 0 auto;
+}
+:root {
+    --lightRed: #FF6464;
+    --darkBlue: #142850;
+    --backgroundGray: #EDF7FA;
 }
 
 @media screen and (min-width: 72rem){

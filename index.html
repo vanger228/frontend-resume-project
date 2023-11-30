@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -32,24 +38,33 @@
         </button>
       </header>
       <section class="hero">
-        <img src="" alt="" class="main-photo" />
-        <h1 class="greating">Hi, I am John, Creative Technologist</h1>
-        <p class="describe-self">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
-        <button class="download-button">Download Resume</button>
+        <img
+          class="main-photo"
+          src="./img/self.jpg"
+          width="171"
+          height="171"
+          alt="self photo"
+        />
+        <div class="hero-info-wrapper">
+          <h1 class="greating">Hi, I am John, Creative Technologist</h1>
+          <p class="describe-self">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button class="download-button">Download Resume</button>
+        </div>
       </section>
-      <section class="blog">
+      <section class="blog no-max-width">
         <h3 class="recent-posts">Recent posts</h3>
-        <button class="view-more-button">View all</button>
+        <a href="" class="view-all">View all</a>
         <ul class="posts-list">
           <li class="post-item">
             <h2 class="post-header">Making a design system from scratch</h2>
-            <p class="date-category">
-              12 Feb 2020 <span class="symbol"></span> Design, Pattern
-            </p>
+            <div class="date-category">
+              <p class="text-first">12 Feb 2020</p>
+              <p class="text-last">Design, Pattern</p>
+            </div>
             <p class="post-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
@@ -58,9 +73,10 @@
           </li>
           <li class="post-item">
             <h2 class="post-header">Creating pixel perfect icons in Figma</h2>
-            <p class="date-category">
-              12 Feb 2020 <span class="symbol"></span>Figma, Icon Design
-            </p>
+            <div class="date-category">
+              <p class="text-first">12 Feb 2020</p>
+              <p class="text-last">Figma, Icon Design</p>
+            </div>
             <p class="post-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
@@ -73,40 +89,46 @@
         <h3 class="featured-works">Featured works</h3>
         <ul class="works-list">
           <li class="works-item">
-            <img src="" alt="" class="work-img" />
-            <h2 class="works-header">Designing Dashboards</h2>
-            <p class="work-date-type">
-              <span class="year">2020</span>Dashboard
-            </p>
-            <p class="work-text">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+            <img src="./img/work-1.jpg" alt="" class="work-img" />
+            <div class="work-descript-wrapper">
+              <h2 class="works-header">Designing Dashboards</h2>
+              <p class="work-date-type">
+                <span class="year">2020</span>Dashboard
+              </p>
+              <p class="work-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
           </li>
           <li class="works-item">
-            <img src="" alt="" class="work-img" />
-            <h2 class="works-header"></h2>
-            <p class="work-date-type">
-              <span class="year">2018</span>Illustration
-            </p>
-            <p class="work-text">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+            <img src="./img/work-2.jpg" alt="" class="work-img" />
+            <div class="work-descript-wrapper">
+              <h2 class="works-header"></h2>
+              <p class="work-date-type">
+                <span class="year">2018</span>Illustration
+              </p>
+              <p class="work-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
           </li>
           <li class="works-item">
-            <img src="" alt="" class="work-img" />
-            <h2 class="works-header"></h2>
-            <p class="work-date-type">
-              <span class="year">2018</span>Typography
-            </p>
-            <p class="work-text">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+            <img src="./img/work-3.jpg" alt="" class="work-img" />
+            <div class="work-descript-wrapper">
+              <h2 class="works-header"></h2>
+              <p class="work-date-type">
+                <span class="year">2018</span>Typography
+              </p>
+              <p class="work-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
           </li>
         </ul>
       </section>

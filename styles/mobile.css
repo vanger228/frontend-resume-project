@@ -1,4 +1,4 @@
-
+/* =====HEADER===== */
 .nav{
     display: none;
 }
@@ -13,17 +13,140 @@
     line-height: 0;
     border: none;
 }
-
-.btn-icon{
-    stroke: #21243D;
-}
-.btn-icon {
-    stroke: #21243D;
-}
+/* ======HERO======= */
 .hero{
     padding-top: 30px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px;
+}
+.main-photo{
+    border-radius: 50%;
+}
+.hero-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+.greating{
+    text-align: center;
+    width: 200px;
+}
+.describe-self{
+    width: 320px;
+    margin-bottom: 6px;
 }
 .download-button{
     width: 208px;
     height: 47px;
+    border-radius: 2px;
+    background: var(--lightRed);
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    font-family: Heebo;
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+/* ======section blog ======*/
+
+.blog{
+    background-color: var(--backgroundGray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recent-posts{
+    width: 110px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+}
+.view-all{
+    display: none;
+}
+.posts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding-bottom: 38px;
+}
+.post-item{
+    background-color: #FFF;
+    width: 334px;
+    height: 246px;
+    padding: 20px;
+}
+.post-header{
+    margin-bottom: 12px;
+}
+.date-category{
+    margin-bottom: 17px;
+}
+.text-first, .text-last{
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 16px;
+    border-right: 1px solid #000000;
+
+}
+.text-last{
+    border-right: none;
+}
+.text-first{
+    padding-left: 0;
+}
+.post-text{
+    width: 314px;
+}
+/* ======WORKS======= */
+.works-list li:last-child{
+    display: none;
+}
+.works-list li:nth-last-child(2) {
+    display: none;
+}
+.works-list{
+    padding-bottom: 150px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-works{ 
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 20px 0;
+}
+.works-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-img{
+    border-radius: 6px;
+    margin-bottom: 17px;
+}
+.works-header{
+    margin-bottom: 16px;
+}
+.work-date-type{
+    margin-bottom: 25px;
+        
+}
+.work-text{
+    width: 344px;
+}
+.year{
+    background-color: black;
+    color: white;
+    padding: 0 12px;
+    border-radius: 45px;
 }
