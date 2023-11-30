@@ -1,0 +1,29 @@
+
+.nav{
+    display: none;
+}
+.header {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    height: 52px;
+}
+.burger-menu-button {
+    background-color: transparent;
+    line-height: 0;
+    border: none;
+}
+
+.btn-icon{
+    stroke: #21243D;
+}
+.btn-icon {
+    stroke: #21243D;
+}
+.hero{
+    padding-top: 30px;
+}
+.download-button{
+    width: 208px;
+    height: 47px;
+}
